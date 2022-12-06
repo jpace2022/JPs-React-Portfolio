@@ -1,7 +1,7 @@
 import React from 'react';
 import caregiver from "../../assets/small/CareGiver_Connection.png";
 import kickTheBucket from "../../assets/small/Kick_the_Bucket.png";
-
+import MyFirstWebsite from "../../assets/small/My_First_Website.png";
 import noteTracker from "../../assets/small/Note_Tracker.png";
 import portfolio from "../../assets/small/Portfolio.png";
 import snowboardQuiz from "../../assets/small/Snowboard_Quiz.png";
@@ -16,7 +16,7 @@ function Portfolio() {
         <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
-              <a href='#Caregiver Connection'>
+              <a href='https://caregiver-connection.herokuapp.com/login'>
                 {" "}
                 <img
                 src={caregiver}
@@ -35,7 +35,7 @@ function Portfolio() {
         <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
-              <a href='#KickTheBucket'>
+              <a href='https://rachlally.github.io/bucket-list/'>
                 {" "}
                 <img
                 src={kickTheBucket}
@@ -51,13 +51,13 @@ function Portfolio() {
           </div>
         </div>
 
-        {/* <div className='job'>
+        <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
-              <a href='#MyFirstWebsite'>
+              <a href='https://jpace2022.github.io/my-first-website/'>
                 {" "}
                 <img
-                src={myFirstWebsite}
+                src={MyFirstWebsite}
                 className={{ width: "100%"}}
                 alt="MyFirstWebsite "
                 />
@@ -68,12 +68,12 @@ function Portfolio() {
               <p>Talk about MyFirstWebsite</p>
             </div>
           </div>
-        </div> */}
+        </div> 
 
         <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
-              <a href='#'>
+              <a href='https://jpace2022.github.io/Note-Taker/'>
                 {" "}
                 <img
                 src={noteTracker}
@@ -83,8 +83,8 @@ function Portfolio() {
               </a>
             </div>
             <div className='job-text'>
-              <h4>CareGiver Connection</h4>
-              <p>Talk about CareGiver Connection</p>
+              <h4>Note Taker</h4>
+              <p>Talk about Note Taker</p>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@ function Portfolio() {
         <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
-              <a href='#'>
+              <a href='https://jpace2022.github.io/Portfolio/'>
                 {" "}
                 <img
                 src={portfolio}
@@ -102,8 +102,8 @@ function Portfolio() {
               </a>
             </div>
             <div className='job-text'>
-              <h4>CareGiver Connection</h4>
-              <p>Talk about CareGiver Connection</p>
+              <h4>Portfolio</h4>
+              <p>Talk about my first portfolio page.</p>
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ function Portfolio() {
         <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
-              <a href='#'>
+              <a href='https://jpace2022.github.io/Quiz-project/'>
                 {" "}
                 <img
                 src={snowboardQuiz}
@@ -121,8 +121,8 @@ function Portfolio() {
               </a>
             </div>
             <div className='job-text'>
-              <h4>CareGiver Connection</h4>
-              <p>Talk about CareGiver Connection</p>
+              <h4>Snowboard Quiz</h4>
+              <p>Talk about snowboard Quiz</p>
             </div>
           </div>
         </div>
