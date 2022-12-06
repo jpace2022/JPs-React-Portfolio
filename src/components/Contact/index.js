@@ -54,9 +54,9 @@ function Contact() {
           <p>Would you like to get in touch with me?</p>
           <address>
             Yakima, WA <br />
-            P: <a href='tel: 509.833.1104'>509.833.1104</a>
+             <a href='tel: 509.833.1104'>509.833.1104</a>
             <br />
-            E: {" "}
+             {" "}
             <a href='mailto://pacej2022@gmail.com'>
               pacej2022@gmail.com
             </a>

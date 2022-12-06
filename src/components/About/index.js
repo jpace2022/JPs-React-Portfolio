@@ -5,9 +5,6 @@ function About() {
   return (
     <section id="about-me" className="my-5 intro">
       <div class="flex-row">
-       <h1 id='about' className='section-title primary-border'>
-        About me
-        </h1>
         </div>
         <div className='flex-row'>
           <div class="intro-info">
@@ -15,7 +12,7 @@ function About() {
               <img src={profileImage} style={{ width: "100% "}} alt="profile" />
               </div>
         <p>
-        Write about me here. 
+        Thank you for coming to my Portfolio Page. It is still a work in progress but I love to see it keep getting better. 
         </p>
         </div>
       </div>

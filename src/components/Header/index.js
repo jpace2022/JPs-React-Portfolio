@@ -29,9 +29,9 @@ function Header(props) {
           alt="cover" 
           /> */}
 
-          <h2>Welcome</h2>
+          <h2></h2>
           <p>
-            Write about James here!
+            
           </p>
         </div>
       </section>

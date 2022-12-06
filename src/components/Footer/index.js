@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <footer>
-      <h2>Made By James Pace©</h2>
+      <h2>James Pace</h2>
       <p>
         <ul>
           <a href='https://github.com/jpace2022'>
