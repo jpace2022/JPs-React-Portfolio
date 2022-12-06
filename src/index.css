@@ -77,3 +77,22 @@ header nav ul li a:hover {
   border-radius: 20px;
 }
 
+.intro p {
+  line-height: 2;
+  width: 80%;
+  font-size: 25px;
+  margin: auto;
+}
+
+.intro-info {
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.intro-img {
+  flex: 15%;
+  margin-right: 20px;
+}
+
