@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import caregiver from "../assets/small/CareGiver Connection Home Page.png";
-import kickTheBucket from "../assets/small/Kick the Bucket Homepage.png";
-import myFirstWebsite from "../assets/small/CareGiver Connection Home Page.png";
-import noteTracker from "../assets/small/CareGiver Connection Home Page.png";
-import portfolio from "../assets/small/CareGiver Connection Home Page.png";
-import snowboardQuiz from "../assets/small/CareGiver Connection Home Page.png";
+import React from 'react';
+import caregiver from "../../assets/small/CareGiver_Connection.png";
+import kickTheBucket from "../../assets/small/Kick_the_Bucket.png";
+
+import noteTracker from "../../assets/small/Note_Tracker.png";
+import portfolio from "../../assets/small/Portfolio.png";
+import snowboardQuiz from "../../assets/small/Snowboard_Quiz.png";
 
 function Portfolio() {
   return (
@@ -51,7 +51,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className='job'>
+        {/* <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
               <a href='#MyFirstWebsite'>
@@ -68,7 +68,7 @@ function Portfolio() {
               <p>Talk about MyFirstWebsite</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className='job'>
           <div className='job-info'>

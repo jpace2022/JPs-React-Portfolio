@@ -3,12 +3,14 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-  const [email, setEmail] = useState("")
-  const [userName, setUserName] = useState("")
-  const [message, setMessage] = useState("")
-  const [errorMessage, setErrorMessage] = useState("")
+
+  const [email, setEmail] = useState("");
+  const [userName, setUserName] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
+
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
@@ -19,16 +21,6 @@ function Contact() {
       setUserName(inputValue);
     } else {
       setMessage(inputValue);
-    }
-  };
-
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
     }
   };
 
@@ -55,8 +47,8 @@ function Contact() {
         <div className='flex-row'>
           <h2 className='section-title secondary-border'>Hit me up!</h2>
         </div>
+
         <div className='contact-info'>
-        </div>
         <div>
           <h3>Hey there {userName}</h3>
           <p>Would you like to get in touch with me?</p>
@@ -74,6 +66,7 @@ function Contact() {
           </p>
           </div>
 
+          {/* contact form section  */}
           <div className='conatact-form'>
             <h3>Contact Me!</h3>
             <form className='form'>
@@ -96,18 +89,18 @@ function Contact() {
               onChange={handleInputChange}
               type="email"
               id="contact-email"
-              placeholder='Your Email'
+              placeholder='Email'
               />
 
               { /* Message */ }
               <label for="contact-message"> Your Message </label>
               <textarea
-              value={message}
-              name="message"
-              onChange={handleInputChange}
-              type="message"
-              id="contact-message"
-              placeholder='Your Message'
+                value={message}
+                name="message"
+                onChange={handleInputChange}
+                type="message"
+                id="contact-message"
+                placeholder='Your Message'
               />
 
               <button type='button' onClick={handleFormSubmit}>
@@ -116,12 +109,12 @@ function Contact() {
             </form>
           </div>
           {errorMessage && (
-            <div>
-              <p className='error-text'>{errorMessage}</p>
-            </div>
-          )}
+          <div>
+            <p className="error-text">{errorMessage}</p>
           </div>
-        </section>
+        )}
+      </div>
+    </section>
   );
 }
 

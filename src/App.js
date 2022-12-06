@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import Header from "../src/components/Header";
 import About from "../src/components/About";
-import Nav from "../src/components/Nav";
-import Footer from "../src/components/Footer";
+import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
-import Contact from "../src/components/Contact";
+import Footer from "../src/components/Footer";
 import { Helmet } from "react-helmet";
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -19,13 +17,13 @@ function App() {
     return <About/>;
   }
   if (currentTab === "Portfolio") {
-    return <About/>;
+    return <Portfolio/>;
   }
   if (currentTab === "Contact") {
-    return <About/>;
+    return <Contact/>;
   }
   if (currentTab === "Resume") {
-    return <About/>;
+    return <Resume/>;
   }
   return <About/>
 };
