@@ -52,8 +52,8 @@ N/A
     For any questions or concerns, contact me at my email: pacej2022@gmail.com
 
 ## Image Link
-![React Portfolio](#)
-![React Portfolio](#)
+![React Portfolio](https://github.com/jpace2022/JPs-React-Portfolio/blob/main/src/assets/readme/About%20me.png?raw=true)
+![React Portfolio](https://github.com/jpace2022/JPs-React-Portfolio/blob/main/src/assets/readme/Home%20page.png?raw=true)
 ![React Portfolio](#)
 
 
