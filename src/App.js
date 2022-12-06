@@ -5,6 +5,7 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
+import Nav from "../src/components/Nav";
 import { Helmet } from "react-helmet";
 import './App.css';
 
