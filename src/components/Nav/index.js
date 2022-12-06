@@ -26,7 +26,7 @@ function Nav(props) {
           </li>
           <li className='nav-item'>
             <a href='#portfolio'
-            onClick={() => handleTabChange("portfolio")}
+            onClick={() => handleTabChange("Portfolio")}
             className={currentTab === "Portfolio" ? "nav-link active" : "nav-link"}
             >
               Portfolio
@@ -34,7 +34,7 @@ function Nav(props) {
           </li>
           <li className='nav-item'>
             <a href='#contact'
-            onClick={() => handleTabChange("contact")}
+            onClick={() => handleTabChange("Contact")}
             className={currentTab === "Contact" ? "nav-link active" : "nav-link"}
             >
               Contact
@@ -42,7 +42,7 @@ function Nav(props) {
           </li>
           <li className='nav-item'>
             <a href='#resume'
-            onClick={() => handleTabChange("resume")}
+            onClick={() => handleTabChange("Resume")}
             className={currentTab === "resume" ? "nav-link active" : "nav-link"}
             >
               Resume
