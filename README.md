@@ -54,6 +54,6 @@ N/A
 ## Image Link
 ![React Portfolio](https://github.com/jpace2022/JPs-React-Portfolio/blob/main/src/assets/readme/About%20me.png?raw=true)
 ![React Portfolio](https://github.com/jpace2022/JPs-React-Portfolio/blob/main/src/assets/readme/Home%20page.png?raw=true)
-![React Portfolio](#)
+![React Portfolio](https://github.com/jpace2022/JPs-React-Portfolio/blob/main/src/assets/readme/Portfolio.png?raw=true)
 
 
