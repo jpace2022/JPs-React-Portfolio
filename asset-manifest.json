@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JPs-React-Portfolio/static/css/main.8c66f4c3.css",
-    "main.js": "/JPs-React-Portfolio/static/js/main.a23499a0.js",
+    "main.js": "/JPs-React-Portfolio/static/js/main.a4cc7e98.js",
     "static/js/787.9e2c69d8.chunk.js": "/JPs-React-Portfolio/static/js/787.9e2c69d8.chunk.js",
     "static/media/Portfolio.png": "/JPs-React-Portfolio/static/media/Portfolio.907d634269f962450528.png",
     "static/media/JP_headshot.jpg": "/JPs-React-Portfolio/static/media/JP_headshot.87f4ff991f192520f145.jpg",
@@ -9,16 +9,16 @@
     "static/media/Kick_the_Bucket.png": "/JPs-React-Portfolio/static/media/Kick_the_Bucket.9f7497553d2efd01e945.png",
     "static/media/IMG_20200307_112858_562.jpg": "/JPs-React-Portfolio/static/media/IMG_20200307_112858_562.75b640e42b51dee2dc59.jpg",
     "static/media/My_First_Website.png": "/JPs-React-Portfolio/static/media/My_First_Website.63fa5b00a2d8f3e9886c.png",
-    "static/media/Snowboard_Quiz.png": "/JPs-React-Portfolio/static/media/Snowboard_Quiz.88f44002dae6d67f5e19.png",
+    "static/media/PokemonHunter.png": "/JPs-React-Portfolio/static/media/PokemonHunter.ee41e13124bfe67fb980.png",
     "static/media/Note_Tracker.png": "/JPs-React-Portfolio/static/media/Note_Tracker.1f95af2cabb74069f66f.png",
     "static/media/James_Resume.docx": "/JPs-React-Portfolio/static/media/James_Resume.a3c199936d113bd4811b.docx",
     "index.html": "/JPs-React-Portfolio/index.html",
     "main.8c66f4c3.css.map": "/JPs-React-Portfolio/static/css/main.8c66f4c3.css.map",
-    "main.a23499a0.js.map": "/JPs-React-Portfolio/static/js/main.a23499a0.js.map",
+    "main.a4cc7e98.js.map": "/JPs-React-Portfolio/static/js/main.a4cc7e98.js.map",
     "787.9e2c69d8.chunk.js.map": "/JPs-React-Portfolio/static/js/787.9e2c69d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8c66f4c3.css",
-    "static/js/main.a23499a0.js"
+    "static/js/main.a4cc7e98.js"
   ]
 }
