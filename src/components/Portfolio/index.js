@@ -121,8 +121,8 @@ function Portfolio() {
               </a>
             </div>
             <div className='job-text'>
-              <h4>Snowboard Quiz</h4>
-              <p>Talk about snowboard Quiz</p>
+              <h4>Professor Oak's Shiny Dex Presentation</h4>
+              <p>This was the final project I worked on for the bootcamp!</p>
             </div>
           </div>
         </div>
