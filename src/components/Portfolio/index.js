@@ -111,10 +111,10 @@ function Portfolio() {
         <div className='job'>
           <div className='job-info'>
             <div className='job-img'>
-              <a href='https://jpace2022.github.io/Quiz-project/'>
+              <a href='https://shiny-hunter-client.vercel.app/'>
                 {" "}
                 <img
-                src={snowboardQuiz}
+                src={PokemonHunter}
                 className={{ width: "100%"}}
                 alt=" "
                 />
