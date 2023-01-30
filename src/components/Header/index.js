@@ -29,7 +29,7 @@ function Header(props) {
           alt="cover" 
           /> */}
 
-          <h2></h2>
+          <h2>Welcome to James Pace's Portfolio page built using React. Please take a look at a small sample of the projects he has worked on during the program. </h2>
           <p>
             
           </p>

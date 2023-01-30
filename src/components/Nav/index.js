@@ -9,7 +9,8 @@ function Nav(props) {
   } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentTab.name);
+    document.title = capitalizeFirstLetter(currentTab);
+    
   }, [currentTab]);
 
   return (
