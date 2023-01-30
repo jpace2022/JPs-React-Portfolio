@@ -1,5 +1,5 @@
 import React from 'react';
-import myResume from "../../assets/files/James_Resume.docx";
+import myResume from "../../assets/files/James Pace Resume V3.docx";
 import { BsCloudDownload } from "react-icons/bs";
 import { MdFoundation } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
@@ -32,6 +32,9 @@ function Resume() {
       <p className='column-title'>Front-End Tech</p>
       <p className='column-text'>
         <ul>
+          <li className='logo'>
+            <MdFoundation />
+          </li>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -49,6 +52,9 @@ function Resume() {
       <p className='column-title'>Back-End Tech</p>
       <p className='column-text'>
         <ul>
+          <li className='logo'>
+            <GrTechnology />
+          </li>
           <li>APIs</li>
           <li>Node</li>
           <li>Express</li>
@@ -64,6 +70,9 @@ function Resume() {
       <p className='column-title'>Performance Tech</p>
       <p className='column-text'>
         <ul>
+          <li className='logo'>
+            <GrDocumentPerformance />
+          </li>
           <li>NoSQL</li>
           <li>(PWA)</li>
           <li>MongoDB</li>

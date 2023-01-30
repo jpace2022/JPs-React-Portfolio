@@ -1,4 +1,6 @@
 * {
+  margin: 555;
+  padding: 555;
   box-sizing: border-box;
 }
 
@@ -39,7 +41,7 @@ header {
   background-image: url(../src/assets/cover/IMG_20200307_112858_562.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: 60%;
+  background-position: 800%;
 }
 
 header h1 {
