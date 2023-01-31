@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
@@ -15,30 +14,31 @@ function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === "email") {
-      setEmail(inputValue);
-    } else if (inputType === "userName") {
-      setUserName(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-  };
+// Based on the input type, we set the state of either email, username, and message
+if (inputType === "email") {
+  setEmail(inputValue);
+} else if (inputType === "userName") {
+  setUserName(inputValue);
+} else if (inputType === "message") {
+  setMessage(inputValue);
+}
+};
 
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     
-     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
       setErrorMessage("Credentials not valid")
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       //then we check to see if te message is not valid. If so, we set an error message regarding the message.
     }
-     
-      if (!setMessage(message)) {
-        setErrorMessage('Message is required.');
-        return;
+    
+    if (!setMessage(message)) {
+      setErrorMessage('Message is required.');
+      return;
 
       } 
       // If everything goes according to plan, we want to clear out the input after a successful submission.
@@ -52,7 +52,6 @@ function Contact() {
         <div className='flex-row'>
           <h2 className='section-title secondary-border'>Please contact me below!</h2>
         </div>
-
         <div className='contact-info'>
         <div>
           <h3>Hello there! {userName}</h3>

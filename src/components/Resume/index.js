@@ -20,7 +20,7 @@ function Resume() {
                 <BsCloudDownload />
               </a>
               <p>
-                Check out What I have learned!
+                Subjects covered during the Bootcamp!
               </p>
         </div>
       </div>
@@ -28,13 +28,15 @@ function Resume() {
   </section>
   {/*// this is resume language */} 
   <section id="home-page-body" className='resume-body'>
-    <div className='acticle column1'>
-      <ul>
+
+    <div className='article column1'>
+  <ul>    
         <p className='column-title'>Front-End Tech</p>
         <p className='column-text'>
           <li className='logo'>
             <MdFoundation />
           </li>
+          
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -47,7 +49,6 @@ function Resume() {
     </div>
 
   <div className='article column2'>
-      {/* <p><img src="./assets/images/streamline-icon-ai-robot-waiter@48X48.PNG"></P> */}
 <ul>
       <p className='column-title'>Back-End Tech</p>
       <p className='column-text'>
