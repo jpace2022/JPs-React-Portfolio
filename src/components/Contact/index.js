@@ -25,18 +25,23 @@ function Contact() {
   };
 
   const handleFormSubmit = (e) => {
+    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
     
+     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
       setErrorMessage("Credentials not valid")
+      // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
+      //then we check to see if te message is not valid. If so, we set an error message regarding the message.
     }
      
       if (!setMessage(message)) {
-        setErrorMessage('Email is required.');
+        setErrorMessage('Message is required.');
         return;
 
       } 
+      // If everything goes according to plan, we want to clear out the input after a successful submission.
       setUserName("");
       setMessage("");
       setEmail("");
@@ -45,20 +50,20 @@ function Contact() {
   return (
     <section id="hit-me-up" className='contact'>
         <div className='flex-row'>
-          <h2 className='section-title secondary-border'>Hit me up!</h2>
+          <h2 className='section-title secondary-border'>Please contact me below!</h2>
         </div>
 
         <div className='contact-info'>
         <div>
-          <h3>Hey there {userName}</h3>
+          <h3>Hello there! {userName}</h3>
           <p>Would you like to get in touch with me?</p>
           <address>
             Yakima, WA <br />
-             <a href='tel: 509.833.1104'>509.833.1104</a>
+             Phone: <a href='tel: 509.833.1104'>(509) 833-1104</a>
             <br />
-             {" "}
-            <a href='mailto://pacej2022@gmail.com'>
-              pacej2022@gmail.com
+             Email: {" "}
+            <a href='mailto://jpace1104@msn.com'>
+              jpace1104@msn.com
             </a>
           </address>
           <p>
@@ -67,7 +72,7 @@ function Contact() {
           </div>
 
           {/* contact form section  */}
-          <div className='conatact-form'>
+          <div className='contact-form'>
             <h3>Contact Me!</h3>
             <form className='form'>
               { /* Name */ }
@@ -89,7 +94,7 @@ function Contact() {
               onChange={handleInputChange}
               type="email"
               id="contact-email"
-              placeholder='Email'
+              placeholder='Your Email'
               />
 
               { /* Message */ }

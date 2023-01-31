@@ -22,17 +22,7 @@ function Header(props) {
       </section>
       <section class="hero">
         <div class="hero-cta">
-          {/* <img
-          src={coverImage}
-          className="my-2" 
-          style={{ width: "100%" }}
-          alt="cover" 
-          /> */}
-
           <h2>Welcome to James Pace's Portfolio page built using React. Please take a look at a small sample of the projects he has worked on during the program. </h2>
-          <p>
-            
-          </p>
         </div>
       </section>
     </div>
