@@ -8,8 +8,8 @@ function Footer() {
   return (
     <footer>
       <h2>James Pace©</h2>
-      <p>
-        <ul>
+      <ul>
+        <p>
           <a href='https://github.com/jpace2022'>
             <li className='logo'>
               <VscGithubAlt />
@@ -25,8 +25,8 @@ function Footer() {
               <FaInstagram/>
             </li>
           </a>
-        </ul>
-      </p>
+        </p>
+      </ul>
     </footer>
   )
 }

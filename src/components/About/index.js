@@ -4,11 +4,11 @@ import profileImage from "../../assets/20220521_110433.jpg"
 function About() {
   return (
     <section id="about-me" className="my-5 intro">
-      <div class="flex-row">
+      <div className="flex-row">
         </div>
         <div className='flex-row'>
-          <div class="intro-info">
-            <div class="intro-img">
+          <div className="intro-info">
+            <div className="intro-img">
               <img src={profileImage} style={{ width: "100% "}} alt="profile" />
               </div>
         <p>

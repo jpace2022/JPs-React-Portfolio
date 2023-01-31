@@ -29,9 +29,9 @@ function Resume() {
   {/*// this is resume language */} 
   <section id="home-page-body" className='resume-body'>
     <div className='acticle column1'>
-      <p className='column-title'>Front-End Tech</p>
-      <p className='column-text'>
-        <ul>
+      <ul>
+        <p className='column-title'>Front-End Tech</p>
+        <p className='column-text'>
           <li className='logo'>
             <MdFoundation />
           </li>
@@ -42,16 +42,15 @@ function Resume() {
           <li>React</li>
           <li>Bootstrap</li>
           <li>GIT</li>
-        </ul>
-      </p>
+        </p>
+       </ul>
     </div>
 
   <div className='article column2'>
       {/* <p><img src="./assets/images/streamline-icon-ai-robot-waiter@48X48.PNG"></P> */}
-
+<ul>
       <p className='column-title'>Back-End Tech</p>
       <p className='column-text'>
-        <ul>
           <li className='logo'>
             <GrTechnology />
           </li>
@@ -61,15 +60,14 @@ function Resume() {
           <li>MySQL, Sequelize</li>
           <li>MongoDB, Mongoose</li>
           <li>GraphQL</li>
+         </p>
         </ul>
-        </p>
       </div>
       <div className='article column3'>
       {/* <p><img src="./assets/images/streamline-icon-soft-drink-glass-ice@48X48.PNG"></P> */}
-
+<ul>
       <p className='column-title'>Performance Tech</p>
       <p className='column-text'>
-        <ul>
           <li className='logo'>
             <GrDocumentPerformance />
           </li>
@@ -79,8 +77,8 @@ function Resume() {
           <li>GraphQL</li>
           <li>Mongoose</li>
           <li>MERN</li>
-        </ul>
         </p>
+        </ul>
       </div>
    </section>
   </div>

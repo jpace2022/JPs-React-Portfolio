@@ -20,8 +20,8 @@ function Header(props) {
           </div>
         </header>
       </section>
-      <section class="hero">
-        <div class="hero-cta">
+      <section className="hero">
+        <div className="hero-cta">
           <h2>Welcome to James Pace's Portfolio page built using React. Please take a look at a small sample of the projects he has worked on during the program. </h2>
         </div>
       </section>
