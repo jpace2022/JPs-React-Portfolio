@@ -32,7 +32,7 @@ function App() {
     <>
       <Helmet>
         <title> James Pace's Portfolio Page!</title>
-        </Helmet>;
+        </Helmet>
         <Header
         currentTab = {currentTab}
         handleTabChange = {handleTabChange}
