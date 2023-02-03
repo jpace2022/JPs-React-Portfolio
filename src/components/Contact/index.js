@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { validateEmail } from '../../utils/helpers';
+//import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
 
@@ -16,7 +16,7 @@ function Contact() {
           console.log(error.text);
         });
       };
-  const [userName, setUserName] = useState("");
+  const [userName] = useState("");
 
   return (
     <section id="hit-me-up" className='contact'>
