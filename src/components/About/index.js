@@ -1,10 +1,14 @@
 import React from 'react';
+
 import profileImage from "../../assets/20220521_110433.jpg";
 
 function About() {
   return (
     <section id="about-me" className="my-5 intro">
       <div className="flex-row">
+      <h1 id="about" className="section-title primary-border">
+          About Me
+        </h1>
         </div>
         <div className='flex-row'>
           <div className="intro-info">
