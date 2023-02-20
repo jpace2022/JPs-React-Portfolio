@@ -14,7 +14,7 @@ function App() {
       <Contact />
     </div>
   )
-  const [currentTab, handleTabChange] = useState('about');
+  const [currentTab, handleTabChange] = useState("currentTab");
 
   const renderTab = () => {
 

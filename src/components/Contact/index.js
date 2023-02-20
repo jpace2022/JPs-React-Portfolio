@@ -1,22 +1,23 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-//import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
-
+  
   const form = useRef();
-
+  
   const sendEmail = (e) => {
     
     emailjs.sendForm('JamesPace.dev', 'template_6fzof6e', form.current, 'o5FMZrS-xlFYeJXwv')
-      .then((result) => {
-          console.log(result.text);
-          console.log("message sent")
-        }, (error) => {
-          console.log(error.text);
-        });
-      };
+    .then((result) => {
+      console.log(result.text);
+      console.log("message sent")
+    }, (error) => {
+      console.log(error.text);
+    });
+  };
   const [userName] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   return (
     <section id="hit-me-up" className='contact'>
@@ -44,21 +45,28 @@ function Contact() {
   <div className='contact-form'>
     <h3>Contact Me!</h3>
     <form className='form' ref={form} onSubmit={sendEmail}>
-      <label form='contact-name'>Name</label>
-      <input type="text" name="name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
+      { /* Name */ }
+      <label form='contact-name'></label>
+      <input type="text" name="name" id='contact-name' placeholder='Your Name' />
+      { /* Email */ }
+      <label form='contact-email'> </label>
+      <input type="email" name="user_email" id='contact-email' placeholder='Your Email' />
+      { /* Message */ }
+      <label form='contact-message'> </label>
+      <textarea name="message" type="message" id='contact-message' placeholder='Your Message'/>
       <button type="submit" value="Send"> Submit </button>
     </form>
   </div>
+  {errorMessage && (
+    <div>
+      <p className='error-text'></p>
+    </div>
+  )}
 </section>
   )
 
   // const [email, setEmail] = useState("");
   // const [message, setMessage] = useState("");
-  // const [errorMessage, setErrorMessage] = useState("");
 
   // const handleInputChange = (e) => {
 
