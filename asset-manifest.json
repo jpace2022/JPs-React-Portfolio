@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/JPs-React-Portfolio/static/css/main.c651120e.css",
-    "main.js": "/JPs-React-Portfolio/static/js/main.a20baff7.js",
+    "main.js": "/JPs-React-Portfolio/static/js/main.3f2cadd1.js",
     "static/js/787.9e2c69d8.chunk.js": "/JPs-React-Portfolio/static/js/787.9e2c69d8.chunk.js",
     "static/media/20220521_110433.jpg": "/JPs-React-Portfolio/static/media/20220521_110433.33881c78e42896147b2a.jpg",
     "static/media/Portfolio.png": "/JPs-React-Portfolio/static/media/Portfolio.907d634269f962450528.png",
     "static/media/CareGiver_Connection.png": "/JPs-React-Portfolio/static/media/CareGiver_Connection.a57149d6c6bb99f972f3.png",
+    "static/media/James Pace Resume PDF.pdf": "/JPs-React-Portfolio/static/media/James Pace Resume PDF.3509e4fe96701e818902.pdf",
     "static/media/Kick_the_Bucket.png": "/JPs-React-Portfolio/static/media/Kick_the_Bucket.9f7497553d2efd01e945.png",
     "static/media/My_First_Website.png": "/JPs-React-Portfolio/static/media/My_First_Website.63fa5b00a2d8f3e9886c.png",
     "static/media/PokemonHunter.png": "/JPs-React-Portfolio/static/media/PokemonHunter.ee41e13124bfe67fb980.png",
     "static/media/Note_Tracker.png": "/JPs-React-Portfolio/static/media/Note_Tracker.1f95af2cabb74069f66f.png",
-    "static/media/James Pace Resume V3.docx": "/JPs-React-Portfolio/static/media/James Pace Resume V3.231da7a4e686c25bf166.docx",
     "static/media/mountainbackground.jpg": "/JPs-React-Portfolio/static/media/mountainbackground.8f40341f509f54d523b2.jpg",
     "index.html": "/JPs-React-Portfolio/index.html",
     "main.c651120e.css.map": "/JPs-React-Portfolio/static/css/main.c651120e.css.map",
-    "main.a20baff7.js.map": "/JPs-React-Portfolio/static/js/main.a20baff7.js.map",
+    "main.3f2cadd1.js.map": "/JPs-React-Portfolio/static/js/main.3f2cadd1.js.map",
     "787.9e2c69d8.chunk.js.map": "/JPs-React-Portfolio/static/js/787.9e2c69d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c651120e.css",
-    "static/js/main.a20baff7.js"
+    "static/js/main.3f2cadd1.js"
   ]
 }
