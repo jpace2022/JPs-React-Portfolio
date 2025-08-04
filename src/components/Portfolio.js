@@ -1,10 +1,10 @@
 import React from 'react';
-import caregiver from "../../assets/small/CareGiver_Connection.png";
-import kickTheBucket from "../../assets/small/Kick_the_Bucket.png";
-import MyFirstWebsite from "../../assets/small/My_First_Website.png";
-import noteTracker from "../../assets/small/Note_Tracker.png";
-import portfolio from "../../assets/small/Portfolio.png";
-import PokemonHunter from "../../assets/small/PokemonHunter.png";
+import caregiver from "../assets/small/CareGiver_Connection.png";
+import kickTheBucket from "../assets/small/Kick_the_Bucket.png";
+import MyFirstWebsite from "../assets/small/My_First_Website.png";
+import noteTracker from "../assets/small/Note_Tracker.png";
+import portfolio from "../assets/small/Portfolio.png";
+import PokemonHunter from "../assets/small/PokemonHunter.png";
 
 function Portfolio() {
   return (
