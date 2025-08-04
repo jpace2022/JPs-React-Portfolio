@@ -1,20 +1,15 @@
 import React, { useState } from "react";
-import Header from "../src/components/Header";
-import About from "../src/components/About";
-import Contact from "../src/components/Contact";
-import Portfolio from "../src/components/Portfolio";
-import Resume from "../src/components/Resume";
-import Footer from "../src/components/Footer";
+import Header from "./components/Header";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 import { Helmet } from "react-helmet"; 
 import './App.css';
 
 function App() {
- (
-    <div className="App">
-      <Contact />
-    </div>
-  )
-  const [currentTab, handleTabChange] = useState("currentTab");
+  const [currentTab, handleTabChange] = useState("About");
 
   const renderTab = () => {
 
