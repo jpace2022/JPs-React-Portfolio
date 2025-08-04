@@ -7,13 +7,35 @@ function Contact() {
   const form = useRef();
   
   const sendEmail = (e) => {
+    e.preventDefault();
+    
+    // Get form values
+    const name = form.current.name.value;
+    const email = form.current.user_email.value;
+    const message = form.current.message.value;
+    
+    // Validate form fields
+    if (!name || !email || !message) {
+      setErrorMessage("All fields are required");
+      return;
+    }
+    
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email address");
+      return;
+    }
+    
+    // Clear any previous error message
+    setErrorMessage("");
     
     emailjs.sendForm('JamesPace.dev', 'template_6fzof6e', form.current, 'o5FMZrS-xlFYeJXwv')
     .then((result) => {
       console.log(result.text);
-      console.log("message sent")
+      console.log("message sent");
+      form.current.reset();
     }, (error) => {
       console.log(error.text);
+      setErrorMessage("Failed to send message. Please try again.");
     });
   };
   const [userName] = useState("");
@@ -24,24 +46,26 @@ function Contact() {
        <div className='flex-row'>
         <h2 className='section-title secondary-border'>Please contact me below!</h2>
          </div>
-         <div className='contact-info'>
-         <div>
-           <h3>Hello there! {userName}</h3>
-           <p>Would you like to get in touch with me?</p>
-           <address>
-             Yakima, WA <br />
-             Phone: <a href='tel: 509.833.1104'>(509) 833-1104</a>
-             <br />
-              Email: {" "}
-             <a href='mailto://jpace1104@msn.com'>
-               jpace1104@msn.com
-             </a>
-          </address>
-          <p>
-            <strong>Please share your feedback with me!</strong>
-           </p>
-           </div>
-          </div>
+   <div className='contact-info'>
+    <div>
+      <h3>Hello there! {userName}</h3>
+      <p>Would you like to get in touch with me?</p>
+      <address>
+        Yakima, WA <br />
+        Phone: <a href='tel: 509.833.1104'>(509) 833-1104</a>
+        <br />
+        Email: {" "}
+        <a href='mailto://jpace1104@msn.com'>
+          jpace1104@msn.com
+        </a>
+      </address>
+      {errorMessage && (
+        <div>
+          <p className='error-text'>{errorMessage}</p>
+        </div>
+      )}
+    </div>
+   </div>
   <div className='contact-form'>
     <h3>Contact Me!</h3>
     <form className='form' ref={form} onSubmit={sendEmail}>

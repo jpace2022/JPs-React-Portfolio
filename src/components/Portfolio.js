@@ -83,7 +83,7 @@ function Portfolio() {
                 src={noteTracker}
                 className="my-2"
                 style={{ width: "100%"}}
-                alt=" "
+                alt="Note Taker application screenshot"
                 />
               </a>
             </div>
@@ -103,7 +103,7 @@ function Portfolio() {
                 src={portfolio}
                 className="my-2"
                 style={{ width: "100%"}}
-                alt=" "
+                alt="Original portfolio website screenshot"
                 />
               </a>
             </div>
@@ -123,7 +123,7 @@ function Portfolio() {
                 src={PokemonHunter}
                 className="my-2"
                 style={{ width: "100%"}}
-                alt=" "
+                alt="Pokemon Shiny Hunter application screenshot"
                 />
               </a>
             </div>
