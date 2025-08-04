@@ -1,5 +1,5 @@
 import React from 'react';
-import myResume from "../../assets/files/James Pace Resume PDF V2.pdf";
+import myResume from "../assets/files/James Pace Resume PDF V2.pdf";
 import { BsCloudDownload } from "react-icons/bs";
 import { MdFoundation } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
