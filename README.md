@@ -11,7 +11,7 @@
 - [License](#license)
 - [Contribution](#contribution)
 - [Test](#test)
-- [Mock Up](#mockup)
+- [Projects](#projects)
 - [Deployed URL](#deployedurl)
 - [GitHub](#github)
 - [Contact](#contact)
@@ -42,8 +42,13 @@ When I view the footer then I am presented with text or icon links to the develo
 
 ## Test
    N/A
-## Mock Up
-N/A
+## Projects
+- [Professor Oak's Shiny Dex](https://shiny-hunter-client.vercel.app/) - A tool to help you collect Shiny Pokemon, with a fun interface and persistent data via a full backend.
+- [CareGiver Connection](https://caregiver-connection.herokuapp.com/login) - A ride-sharing app for healthcare professionals to coordinate travel and reduce costs.
+- [Kick the Bucket](https://rachlally.github.io/bucket-list/) - A bucket list application to track life goals and milestones.
+- [Simple Note Taker](https://jpace2022.github.io/Note-Taker/) - A clean, functional note-taking application built from scratch.
+- [My First Website](https://jpace2022.github.io/my-first-website/) - The starting point of my web development journey, showcasing my growth.
+- [Original Portfolio](https://jpace2022.github.io/Portfolio/) - My first portfolio built with just HTML and CSS.
 
 ## GitHub Repo
    [React Portfolio(https://github.com/jpace2022/JPs-React-Portfolio.git)] 
