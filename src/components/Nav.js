@@ -1,56 +1,29 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../utils/helpers';
+import React from 'react';
 
 function Nav(props) {
-  const {
-    currentTab,
-    handleTabChange,
-
-  } = props
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentTab);
-    
-  }, [currentTab]);
+  const { currentTab, handleTabChange } = props;
+  const tabs = ['About', 'Portfolio', 'Contact', 'Resume'];
 
   return (
-
-      <nav>
-        <ul className="nav nav-tabs">
-          <li className='nav-item'>
-            <a href='#about'
-            onClick={() => handleTabChange("About")}
-            className={currentTab === "about" ? "nav-link active" : "nav-link"}
+    <nav>
+      <ul className="flex space-x-4">
+        {tabs.map(tab => (
+          <li key={tab}>
+            <a
+              href={`#${tab.toLowerCase()}`}
+              onClick={() => handleTabChange(tab)}
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 ${
+                currentTab === tab
+                  ? 'bg-cyan-500 text-white'
+                  : 'text-gray-300 hover:bg-gray-700 hover:text-white'
+              }`}
             >
-              About
+              {tab}
             </a>
           </li>
-          <li className='nav-item'>
-            <a href='#portfolio'
-            onClick={() => handleTabChange("Portfolio")}
-            className={currentTab === "Portfolio" ? "nav-link active" : "nav-link"}
-            >
-              Portfolio
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a href='#contact'
-            onClick={() => handleTabChange("Contact")}
-            className={currentTab === "Contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact
-            </a>
-          </li>
-          <li className='nav-item'>
-            <a href='#resume'
-            onClick={() => handleTabChange("Resume")}
-            className={currentTab === "resume" ? "nav-link active" : "nav-link"}
-            >
-              Resume
-            </a>
-          </li>
-        </ul>
-      </nav>
+        ))}
+      </ul>
+    </nav>
   );
 }
 
