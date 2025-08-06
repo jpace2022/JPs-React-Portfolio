@@ -1,3 +1,4 @@
+// This is a test comment to check Git change detection.
 import React, { useState } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
